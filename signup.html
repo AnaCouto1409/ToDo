@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do App</title>
+
+  <!-- ---------------- estilos compartilhados entre login e signup ---------------- -->
+  <link rel="stylesheet" href="styles/acesso.css">
+
+  <!-- ---------------------- lógica aplicada no registro -------------------- -->
+  <script src="/js/tarefas.js"></script>
+  <script src="./js/signup.js"></script>
+
+</head>
+
+<body>
+
+  <div class="left">
+    <img src="pessoa-signup.png" alt="pessoa-signup">
+  </div>
+  <div class="right">
+    <form>
+      <div class="form-header">
+        <p>To-Do App</p>
+      </div>
+
+      <div class="controlador">
+        <label>Nome:</label>
+        <input id="inputNome" type="text" required>
+        <small>Por favor preencha o campo nome corretamente</small>
+      </div>
+
+      <div class="controlador">
+        <label>Sobrenome:</label>
+        <input id="inputSobrenome" type="text" required>
+        <small>Por favor preencha o campo apelido corretamente</small>
+      </div>
+
+      <div>
+        <label class="controlador">Email:</label>
+        <input id="inputEmail" type="text" required>
+        <small>Por favor preencha o campo email corretamente</small>
+      </div>
+
+      <div class="controlador">
+        <label>Senha:</label>
+        <input id="inputSenha" type="password" required>
+        <small>Por favor preencha o campo senha corretamente</small>
+      </div>
+      
+      <div class="controlador">
+      <label>Repetir senha:</label>
+        <input id="inputRepetirSenha" type="password" required>
+        <small>Por favor preencha o campo senha corretamente</small>
+      </div>
+      
+      <button id="btCadastrar">Criar conta</button>
+
+    </form>
+    <div class="ingressar">
+      <a href="index.html">Já possui conta? Acesse aqui</a>
+    </div>
+  </div>
+
+</body>
+
+</html>
